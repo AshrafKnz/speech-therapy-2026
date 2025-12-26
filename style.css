@@ -93,3 +93,33 @@ h2, h3 {
   border-top: 1px solid #e5e5e5;
   background-color: #fafafa;
 }
+
+.author-social {
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.facebook-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background-color: #1877f2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px; /* مستطيل بحواف ناعمة */
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.facebook-btn i {
+  font-size: 18px;
+}
+
+.facebook-btn:hover {
+  background-color: #145dbf;
+  transform: translateY(-2px);
+}
+
+
