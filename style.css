@@ -96,13 +96,9 @@ h2, h3 {
 
 
 .facebook-contact {
-  direction: ltr;
-}
-
-.facebook-contact {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* السنتر الحقيقي */
+  align-items: center;
   margin: 30px auto 25px;
   transition: margin 0.35s ease;
 }
@@ -117,21 +113,12 @@ h2, h3 {
     transform 0.35s ease,
     box-shadow 0.35s ease,
     margin-top 0.35s ease;
-  
-.facebook-contact img {
-  width: 170px;
-  height: auto;
-  display: block;
 }
 
+/* Hover يخلق مسافة بصرية */
 .facebook-contact a:hover {
   transform: translateY(8px); /* يبعده عن المؤلف */
   box-shadow: 0 12px 28px rgba(24, 119, 242, 0.35);
   margin-top: 10px;
 }
-  
-.facebook-contact a:hover img {
-  filter: brightness(0) invert(1);
-}
-
 
