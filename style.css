@@ -115,10 +115,4 @@ h2, h3 {
     margin-top 0.35s ease;
 }
 
-/* Hover يخلق مسافة بصرية */
-.facebook-contact a:hover {
-  transform: translateY(8px); /* يبعده عن المؤلف */
-  box-shadow: 0 12px 28px rgba(24, 119, 242, 0.35);
-  margin-top: 10px;
-}
 
