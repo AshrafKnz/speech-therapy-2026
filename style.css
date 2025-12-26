@@ -95,6 +95,9 @@ h2, h3 {
 }
 
 
+.facebook-contact {
+  direction: ltr;
+}
 
 .facebook-contact {
   display: flex;
@@ -139,3 +142,4 @@ h2, h3 {
 .facebook-contact a:hover img {
   filter: brightness(0) invert(1);
 }
+
